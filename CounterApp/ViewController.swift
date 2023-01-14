@@ -23,13 +23,13 @@ class ViewController: UIViewController {
     @IBAction func buttonResult(_ sender: Any) {
         count += 1
         labelCount.text = "\(count)"
-        labelCountResult.text = "Результат: \(count)"
+        labelCountResult.text = "Значения счётчика: \(count)"
     }
     
     @IBAction func buttonReset(_ sender: Any) {
         count = 0
         labelCount.text = "\(count)"
-        labelCountResult.text = "Результат: 0"
+        labelCountResult.text = "Значения счётчика: 0"
     }
     
 }
