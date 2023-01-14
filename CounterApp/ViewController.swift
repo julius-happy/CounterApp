@@ -14,6 +14,16 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-
+    var count = 0
+    
+    @IBOutlet weak var labelCount: UILabel!
+    
+    @IBOutlet weak var labelCountResult: UILabel!
+    
+    @IBAction func buttonResult(_ sender: Any) {
+        count += 1
+        labelCount.text = "\(count)"
+        labelCountResult.text = "Результат: \(count)"
+    }
 }
 

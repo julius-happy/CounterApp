@@ -33,6 +33,9 @@
                                 </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Button"/>
+                                <connections>
+                                    <action selector="buttonResult:" destination="BYZ-38-t0r" eventType="touchUpInside" id="60M-Cw-a3H"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Результат: 0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ftv-eQ-baE">
                                 <rect key="frame" x="15.666666666666657" y="506.66666666666669" width="361" height="39.333333333333314"/>
@@ -68,6 +71,10 @@
                             <constraint firstItem="M3T-6M-wIT" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="382.66666666666669" id="qmV-oK-Epv"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="labelCount" destination="eUm-8O-TKA" id="ENX-0Z-hLZ"/>
+                        <outlet property="labelCountResult" destination="ftv-eQ-baE" id="oCe-mv-mvo"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
