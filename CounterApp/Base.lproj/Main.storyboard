@@ -32,7 +32,7 @@
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="212" id="cca-Xi-IQQ"/>
                                 </constraints>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Нажми на кнопку"/>
                                 <connections>
                                     <action selector="buttonResult:" destination="BYZ-38-t0r" eventType="touchUpInside" id="60M-Cw-a3H"/>
                                 </connections>
@@ -46,6 +46,16 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Fn-5G-Ybb">
+                                <rect key="frame" x="159" y="610" width="75" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.20293167336430581" green="0.48628972094693224" blue="0.92042996588441517" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Сброс"/>
+                                <connections>
+                                    <action selector="buttonReset:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rIV-CI-Sg3"/>
+                                </connections>
+                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eUm-8O-TKA">
                                 <rect key="frame" x="90" y="184" width="212" height="127.99999999999997"/>
                                 <constraints>

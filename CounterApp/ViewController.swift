@@ -25,5 +25,12 @@ class ViewController: UIViewController {
         labelCount.text = "\(count)"
         labelCountResult.text = "Результат: \(count)"
     }
+    
+    @IBAction func buttonReset(_ sender: Any) {
+        count = 0
+        labelCount.text = "\(count)"
+        labelCountResult.text = "Результат: 0"
+    }
+    
 }
 
