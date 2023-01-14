@@ -16,20 +16,32 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Счётчик" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a5n-hR-hOF">
-                                <rect key="frame" x="16" y="97" width="361" height="46.666666666666657"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="361" id="UiL-fi-tDD"/>
-                                </constraints>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="Счётчик" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a5n-hR-hOF">
+                                <rect key="frame" x="112.33333333333333" y="99" width="168.66666666666669" height="46.666666666666657"/>
                                 <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="40"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M3T-6M-wIT">
-                                <rect key="frame" x="90" y="382.66666666666669" width="212" height="52"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Значение счётчика: 0" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ftv-eQ-baE">
+                                <rect key="frame" x="36" y="417" width="321" height="39.333333333333314"/>
+                                <fontDescription key="fontDescription" name="Thonburi" family="Thonburi" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eUm-8O-TKA">
+                                <rect key="frame" x="16" y="153" width="361" height="128"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="52" id="DBh-57-Yjn"/>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="212" id="cca-Xi-IQQ"/>
+                                    <constraint firstAttribute="width" constant="361" id="r3I-go-3XE"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="80"/>
+                                <color key="textColor" red="0.99357683630000004" green="0.99357683630000004" blue="0.99357683630000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M3T-6M-wIT">
+                                <rect key="frame" x="92.666666666666686" y="316" width="208" height="61"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="61" id="D9y-Uz-WUZ"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="208" id="PRc-Xh-0ok"/>
                                 </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Нажми на кнопку"/>
@@ -37,18 +49,12 @@
                                     <action selector="buttonResult:" destination="BYZ-38-t0r" eventType="touchUpInside" id="60M-Cw-a3H"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Значение счётчика: 0" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ftv-eQ-baE">
-                                <rect key="frame" x="15.666666666666657" y="506.66666666666669" width="361" height="39.333333333333314"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Fn-5G-Ybb">
+                                <rect key="frame" x="139.66666666666666" y="517" width="114" height="48"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="361" id="2F6-yb-OkS"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="114" id="OPM-Jb-4y9"/>
+                                    <constraint firstAttribute="height" constant="48" id="t3H-uD-Dvq"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="Thonburi" family="Thonburi" pointSize="30"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Fn-5G-Ybb">
-                                <rect key="frame" x="159" y="610" width="75" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.20293167336430581" green="0.48628972094693224" blue="0.92042996588441517" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Сброс"/>
@@ -56,29 +62,20 @@
                                     <action selector="buttonReset:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rIV-CI-Sg3"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eUm-8O-TKA">
-                                <rect key="frame" x="90" y="184" width="212" height="127.99999999999997"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="212" id="5fH-g6-pCg"/>
-                                    <constraint firstAttribute="height" constant="127.99999999999997" id="Zfs-6b-69Z"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="80"/>
-                                <color key="textColor" red="0.99357683630000004" green="0.99357683630000004" blue="0.99357683630000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemGray3Color"/>
                         <constraints>
-                            <constraint firstItem="a5n-hR-hOF" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="1GN-Ao-Nyz"/>
-                            <constraint firstItem="a5n-hR-hOF" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="38" id="2A7-ga-nO2"/>
-                            <constraint firstItem="ftv-eQ-baE" firstAttribute="top" secondItem="M3T-6M-wIT" secondAttribute="bottom" constant="72.000000000000057" id="6Pf-Ac-lYc"/>
-                            <constraint firstItem="eUm-8O-TKA" firstAttribute="top" secondItem="a5n-hR-hOF" secondAttribute="bottom" constant="40.333333333333343" id="BZi-RR-KPH"/>
-                            <constraint firstItem="M3T-6M-wIT" firstAttribute="top" secondItem="eUm-8O-TKA" secondAttribute="bottom" constant="70.670000000000002" id="Dfn-ee-agQ"/>
-                            <constraint firstItem="M3T-6M-wIT" firstAttribute="centerX" secondItem="ftv-eQ-baE" secondAttribute="centerX" id="PLZ-N0-k2u"/>
-                            <constraint firstItem="M3T-6M-wIT" firstAttribute="leading" secondItem="eUm-8O-TKA" secondAttribute="leading" id="Wad-16-rtL"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="eUm-8O-TKA" secondAttribute="trailing" constant="91" id="iRw-RH-tur"/>
-                            <constraint firstItem="M3T-6M-wIT" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="382.66666666666669" id="qmV-oK-Epv"/>
+                            <constraint firstItem="ftv-eQ-baE" firstAttribute="top" secondItem="M3T-6M-wIT" secondAttribute="bottom" constant="40" id="2DN-cA-FV3"/>
+                            <constraint firstItem="M3T-6M-wIT" firstAttribute="top" secondItem="eUm-8O-TKA" secondAttribute="bottom" constant="35" id="3Ou-dZ-tMi"/>
+                            <constraint firstItem="a5n-hR-hOF" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="APw-8v-iCu"/>
+                            <constraint firstItem="4Fn-5G-Ybb" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="EsS-6k-hU0"/>
+                            <constraint firstItem="eUm-8O-TKA" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="KfT-Cv-buG"/>
+                            <constraint firstItem="M3T-6M-wIT" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="M3d-Bv-fSF"/>
+                            <constraint firstItem="a5n-hR-hOF" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="40" id="aOm-56-ysq"/>
+                            <constraint firstItem="4Fn-5G-Ybb" firstAttribute="top" secondItem="ftv-eQ-baE" secondAttribute="bottom" constant="60.666666666666686" id="gKl-Iv-Agv"/>
+                            <constraint firstItem="eUm-8O-TKA" firstAttribute="top" secondItem="a5n-hR-hOF" secondAttribute="bottom" constant="7.3333333333333428" id="t2Y-Uy-Vez"/>
+                            <constraint firstItem="ftv-eQ-baE" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="vvw-te-tGF"/>
                         </constraints>
                     </view>
                     <connections>
@@ -88,7 +85,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="135.1145038167939" y="3.5211267605633805"/>
+            <point key="canvasLocation" x="133.58778625954199" y="2.8169014084507045"/>
         </scene>
     </scenes>
     <resources>
